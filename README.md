@@ -6,6 +6,7 @@ Install node modules:
 - npm install mochawesome rimraf @faker-js/faker properties-reader --save
 
 U will get these dependencies in package.json:
+
 "dependencies": {
     "@faker-js/faker": "^8.0.2",
     "axios": "^1.4.0",
