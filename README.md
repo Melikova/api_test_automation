@@ -1,6 +1,11 @@
 # api_test_automation
 API test automation with Axios, Mocha, Chai and JavaScript
 
+Install node modules:
+- npm install mocha chai axios --save
+- npm install mochawesome rimraf @faker-js/faker properties-reader --save
+
+U will get these dependencies in package.json:
 "dependencies": {
     "@faker-js/faker": "^8.0.2",
     "axios": "^1.4.0",
@@ -10,7 +15,7 @@ API test automation with Axios, Mocha, Chai and JavaScript
     "properties-reader": "^2.2.0",
     "rimraf": "^5.0.1"
 }
-  
+
 Used: 
   1. https://fakerjs.dev - JavaScript library used for generating fake data
   2. https://axios-http.com - JavaScript library used for making HTTP requests from a web browser or Node.js
@@ -20,5 +25,6 @@ Used:
   6. https://www.npmjs.com/package/properties-reader - Node.js library used for reading and parsing properties files in key-value pair format
   7. https://www.npmjs.com/package/rimraf - The UNIX command rm -rf for node
   
-  --------------------------
-Terminal command - npm test
+--------------------------
+For execute the test use command:
+- npm test
