@@ -1,5 +1,5 @@
 # api_test_automation
-API test automation with Axios, Mocha, Chai
+API test automation with Axios, Mocha and Chai
 
 Install node modules:
 - npm install mocha chai axios --save
